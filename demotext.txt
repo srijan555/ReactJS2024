@@ -36,3 +36,35 @@ git branch -M main
 git remote add origin git@github.com:srijan555/ReactJS2024.git
 git remote add origin https://github.com/srijan555/ReactJS2024.git
 git push -u origin main
+
+create REACT & (React+Vite) app:
+npx create-react-app 01basicreact (bulky and old) due to node_modules so use vite
+vite = bundler
+npm create vite@latest
+projectname = 01vitereact, framework=React + JS
+see package.json
+npm i + npm run dev (vite)
+npm run start
+see page source inspect element
+npm run build -> build folder is deployed in prod
+
+Delete unnessesory files from react:
+setuptests.json
+reportwebvitals
+logo.svg
+apptest
+app.css
+index.css
+edit app.jsx
+npm run start
+
+Delete unnessesory files from react:
+assests - logos
+app.css
+index.css
+edit app.jsx
+npm run dev
+----------------------------------------------------------------------
+devui.io -> card
+extention - react snippets
+

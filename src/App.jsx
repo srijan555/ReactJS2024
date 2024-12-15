@@ -12,7 +12,7 @@ function App() {
   return (
     <UserContextProvider>
     <h1>This is mini context project for centralized state management 
-      and to restrict prop drilling for passing props to each child component</h1>
+      and to restrict prop drilling for passing props to each child component </h1>
       <Login />
       <Profile />
     </UserContextProvider>
